@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Poppins', serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    background: rgb(25, 12, 57);
+    height: 80px;
+}
+
+.navbar-nav {
+    color: #e0e8eb !important;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.nav-link {
+    color: #e0e8eb !important;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px !important;
+}
+
+.navbar-collapse.show .navbar-nav .nav-link {
+    color: rgb(25, 12, 57) !important;
+    
+}
+
+.navbar-toggler-icon {
+    background-color: transparent;
+    filter: invert(1) grayscale(100%) brightness(100%);
+}
+
+@media (max-width: 770px) {
+    .imgContainer {
+      padding-top: 100px;
+    }
+    .descIntro {
+        margin-bottom: 28px;
+    }
+}
+
+@media (max-width: 430px) {
+    .imgContainer {
+      padding-top: 100px;
+    }
+    .descIntro {
+        margin-bottom: 34px;
+    }
+}
+
+.auto-type {
+    color: rgb(37, 18, 87) !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.timelineEvent {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 1s ease-in-out;
+    width: 200px;
+}
+
+.timelineEventType1 {
+    border-left: 15px solid #170955;
+}
+
+.timelineEventType2 {
+    border-left: 15px solid #2b197e;
+}
+
+.timelineEventType3 {
+    border-left: 15px solid #503ab4;
+}
+
+.timelineEventType4 {
+    border-left: 15px solid #7a64df;
+}
+
+.timelineEventIcon {
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+.timelineEventDate {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.timelineEventContent {
+    flex: start;
+}
+
+.timelineEventTitle {
+    font-size: 1.4rem;
+    color: #333;
+    justify-content: start;
+}
+
+.timelineEventDescription {
+    font-size: 1rem;
+    color: #555;
+}
+
+.timelineEventDescription p {
+    justify-content: start;
+}
+
+.timelineEvent:hover {
+    transform: translateY(-10px);
+}

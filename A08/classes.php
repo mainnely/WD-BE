@@ -56,14 +56,14 @@ class islandcontents
     {
         return
         '
-        <div class="container-fluid mt-5">
-    <div class="row p-5">
+        <div class="container-fluid mt-5 p-0">
+    <div class="row py-5">
       <div class="img-fluid d-flex justify-content-center">
-        <img src="img/' . $this->image .'">
+        <img src="img/' . $this->image .'" style="width: 100%; height: auto;">
       </div>
     </div>
  
-    <div class="row p-5">
+    <div class="row py-5">
       <div class="col">
         <div class="card p-3">
           <div class="h4 p-4" style="font-style:normal;">

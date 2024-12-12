@@ -96,7 +96,7 @@ while ($getIslandRow = mysqli_fetch_assoc($getIslandResult)) {
     <div class="w3-modal-content w3-card-4 w3-animate-top">
       <span onclick="document.getElementById('id01').style.display='none'"
         class="w3-button w3-cobalt w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h4>Get to know Jermaine...</h4>
+      <h4 class="p-4" style="background-color: purple; color: aliceblue;">Get to know Jermaine...</h4>
       <div class="w3-container">
         <p>Third-year BSIT student from Polytechnic University of the Philippines. <br>
           I'm 20 years old - May 14, 2004 <br>

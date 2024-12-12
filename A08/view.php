@@ -85,7 +85,7 @@ while ($islandRow = mysqli_fetch_assoc($islandResult)) {
 
   <!-- Island Title -->
   <div class="container-fluid" style='background-image: linear-gradient(to bottom right, white, #<?php echo $im->color?>);'>
-    <div class="row mt-4 p-5 text-center">
+    <div class="row mt-4 py-5 text-center">
       <div class="display-1 islandName"><?php echo $im->islandName ?></div>
       <div class="h5 pt-4"><?php echo $im->longDesc ?></div>
     </div>
