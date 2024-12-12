@@ -1,7 +1,7 @@
 
 <!-- Navbar -->
 <div class="w3-top">
-    <div class="w3-bar w3-theme-l4 w3-left-align">
+    <div class="w3-bar w3-theme-l5 w3-left-align">
       <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
         href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
       <a href="index.php" class="w3-bar-item w3-button"><i class="w3-margin-right"></i>Home</a>

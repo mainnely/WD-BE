@@ -21,11 +21,11 @@ class personalityIsland
     {
         return
         '
-        <div class="w3-quarter px-5 pt-2">
+        <div class="w3-quarter pt-2">
         <a href="view.php?id='. $this->islandID .'">
           <img src="img/' . $this->image .'" alt="Boss" style="width:75%" class="rounded w3-hover-opacity">
           <h3 class="py-2">' . $this->islandName .'</h3>
-          <p>
+          <p class="px-5">
             '. $this->shortDesc .'
           </p>
         </a>
